@@ -10,7 +10,7 @@ body {
 
 header {
   padding: 10pt;
-  font-family: "Palatino Linotype", Palatino, Times;
+  font: "Palatino Linotype";
   font-size: 12px;
   color: #000000;
 }
@@ -27,11 +27,18 @@ header h2 {
   font-size: 20px;
 }
 
-button {
+nav {
+  padding: 10px;
+}
+
+nav button {
   background-color: #1d1d1d;
   border: 1px, #151515;
   color: #ffffff;
-  padding: 10px, 0px;
+  height: 50px;
+  width: 200px;
+  margin-right: 15px;
+  font: "Palatino Linotype";
   text-align: center;
   font-size: 16px;
 }
@@ -45,9 +52,8 @@ main {
 }
 
 main h2 {
-  font-family: "Palatino Linotype", Palatino, Times;
+  font: "Palatino Linotype";
   font-size: 30px;
-  font-style: underline;
 }
 
 article {
@@ -57,6 +63,6 @@ article {
 
 footer {
   text-align: center;
-  font-family: "Palatino Linotype", Palatino, Times;
+  font: "Palatino Linotype";
   color: #000000;
 }
