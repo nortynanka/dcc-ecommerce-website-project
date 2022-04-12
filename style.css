@@ -1,38 +1,30 @@
 body {
-    background-image: url("images/grey-split-background.jpg");
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("grey-split-background.jpg");
     background-color: #bfbfbf;
+    background-repeat: no-repeat;
     border-width: 3px;
     border-color: #1d1d1d;
-    padding-top: 5px;
-    padding-right: 100px;
-    padding-bottom: 5px;
-    padding-left: 100px;
    }
 
 header {
-	padding: 10pt;
-    background-color: #bfbfbf;
-    border-width: 3px;
-    border-color: #1d1d1d;
-}
-
-header {
+  padding: 10pt;
   font-family: "Palatino Linotype", Palatino, Times;
   font-size: 12px;
   color: #000000;
-  padding-left: 20px;
 }
 
 h1 {
-	font-family: "Palatino Linotype", Palatino, Times;
 	font-style: italic;
 	font-size: 50px;
 	color: #ffffff;
 	padding-left: 10px;
 }
 
-nav {
-  align-content: center;
+header h2 {
+  text-align: right;
+  font-size: 20px;
 }
 
 button {
@@ -46,10 +38,16 @@ button {
 
 main {
 	background-color:#d9bfc6;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-bottom: 20px;
+  padding-right: 90px;
+}
+
+main h2 {
+  font-family: "Palatino Linotype", Palatino, Times;
+  font-size: 30px;
+  font-style: underline;
 }
 
 article {
@@ -58,6 +56,7 @@ article {
 }
 
 footer {
+  text-align: center;
   font-family: "Palatino Linotype", Palatino, Times;
   color: #000000;
 }
