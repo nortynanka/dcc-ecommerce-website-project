@@ -1,34 +1,27 @@
 body {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
     background-image: url("grey-split-background.jpg");
     background-color: #bfbfbf;
-    background-repeat: no-repeat;
-    border-width: 3px;
-    border-color: #1d1d1d;
+    background-repeat: repeat-y;
+    opacity: 90%;
    }
 
-header {
-  padding: 10pt;
-  font: "Palatino Linotype";
-  font-size: 12px;
-  color: #000000;
-}
-
-h1 {
+header h1 {
+  text-align: center;
 	font-style: italic;
-	font-size: 50px;
+	font-size: 120px;
 	color: #ffffff;
-	padding-left: 10px;
 }
 
 header h2 {
-  text-align: right;
+  text-align: center;
   font-size: 20px;
+  color: #000000;
 }
 
 nav {
-  padding: 10px;
+  padding: 15px;
 }
 
 nav button {
@@ -38,31 +31,96 @@ nav button {
   height: 50px;
   width: 200px;
   margin-right: 15px;
-  font: "Palatino Linotype";
   text-align: center;
   font-size: 16px;
 }
 
 main {
 	background-color:#d9bfc6;
-  padding-top: 20px;
-  padding-left: 90px;
-  padding-bottom: 20px;
-  padding-right: 90px;
+  padding: 50px;
 }
 
-main h2 {
-  font: "Palatino Linotype";
-  font-size: 30px;
+main img {
+  padding: 15px;
 }
 
 article {
-  font-family: Calibri, Arial;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
   color: #000000;
+}
+
+article h2 {
+  font-size: 30px;
+}
+
+article span {
+  font-style: italic;
+  font-size: 18px;
+  color: #151515;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.product {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.price {
+  color: #000000;
+  font-size: 20px;
+}
+
+.product button {
+  height: 50px;
+  width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #1d1d1d;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.contact img {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.contact p {
+  padding: 15px;
+  text-align: center;
+}
+
+.button {
+  height: 50px;
+  width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #1d1d1d;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+input {
+  font-size: 14px;
+  padding-right: 100px;
+}
+
+.box {
+  padding-bottom: 90px;
 }
 
 footer {
   text-align: center;
-  font: "Palatino Linotype";
-  color: #000000;
+  color: #ffffff;
 }
